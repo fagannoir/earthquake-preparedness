@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Earthquake Preparedness | Civic Responsibility Project</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:white;
+    overflow-x:hidden;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    background:
+    linear-gradient(rgba(15,23,42,.85), rgba(15,23,42,.9)),
+    url('https://images.unsplash.com/photo-1519996521430-1f5d4c5e72d4?q=80&w=1974&auto=format&fit=crop') center/cover;
+}
+
+.hero{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+    color:#ff4d4d;
+}
+
+.hero p{
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+.btn{
+    margin-top:35px;
+    display:inline-block;
+    padding:15px 35px;
+    background:#ff4d4d;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    background:#ff2e2e;
+}
+
+section{
+    padding:90px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:2.7rem;
+    color:#ff4d4d;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#cbd5e1;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.05);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(255,77,77,.2);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#ff4d4d;
+}
+
+.card p, .card li{
+    color:#d1d5db;
+    line-height:1.7;
+}
+
+.timeline{
+    display:grid;
+    gap:25px;
+}
+
+.timeline-item{
+    background:#1e293b;
+    padding:30px;
+    border-left:6px solid #ff4d4d;
+    border-radius:15px;
+}
+
+.timeline-item h3{
+    margin-bottom:10px;
+}
+
+.checklist{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.check-item{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.check-item:hover{
+    transform:scale(1.05);
+}
+
+.team{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.member{
+    background:#1e293b;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.member:hover{
+    transform:translateY(-8px);
+}
+
+.member h3{
+    color:#ff4d4d;
+    margin-top:15px;
+}
+
+.circle{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:#ff4d4d;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#020617;
+    color:#94a3b8;
+}
+
+.highlight{
+    color:#ff4d4d;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.8rem;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+.section-title h2{
+    font-size:2rem;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Earthquake Preparedness</h1>
+        <p>
+            Being prepared for an earthquake can save lives. 
+            This project aims to educate people about earthquake safety, emergency planning, 
+            and civic responsibility during natural disasters.
+        </p>
+
+        <a href="#preparedness" class="btn">Learn More</a>
+    </div>
+</header>
+
+<section id="preparedness">
+
+    <div class="section-title">
+        <h2>Why Preparedness Matters</h2>
+        <p>
+            Earthquakes can happen unexpectedly. Prepared communities reduce injuries, panic, and damage.
+        </p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Protect Lives</h3>
+            <p>
+                Understanding safety procedures helps people react quickly and safely during emergencies.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Reduce Panic</h3>
+            <p>
+                Preparedness training increases confidence and decreases chaos during earthquakes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Community Responsibility</h3>
+            <p>
+                Civic responsibility means helping not only ourselves but also our families and communities.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>What To Do</h2>
+        <p>Essential actions before, during, and after an earthquake.</p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Before an Earthquake</h3>
+            <p>
+                Prepare an emergency kit, secure heavy furniture, identify safe spots at home,
+                and create a family emergency plan.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>During an Earthquake</h3>
+            <p>
+                <span class="highlight">Drop, Cover, and Hold On.</span>
+                Stay away from windows, avoid elevators, and protect your head and neck.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>After an Earthquake</h3>
+            <p>
+                Check for injuries, leave damaged buildings carefully, follow emergency updates,
+                and help others if it is safe.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Emergency Kit Checklist</h2>
+        <p>Items every household should prepare.</p>
+    </div>
+
+    <div class="checklist">
+
+        <div class="check-item">💧 Water</div>
+        <div class="check-item">🥫 Non-perishable Food</div>
+        <div class="check-item">🔦 Flashlight</div>
+        <div class="check-item">🔋 Batteries</div>
+        <div class="check-item">🩹 First Aid Kit</div>
+        <div class="check-item">📱 Power Bank</div>
+        <div class="check-item">📻 Radio</div>
+        <div class="check-item">🧥 Warm Clothes</div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Safety Tips</h2>
+        <p>Important recommendations for earthquake situations.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>At Home</h3>
+            <p>
+                Secure shelves, TVs, and heavy objects to walls to prevent injuries.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Outside</h3>
+            <p>
+                Stay away from buildings, bridges, electric poles, and trees.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>In Public</h3>
+            <p>
+                Stay calm, follow emergency instructions, and avoid panic movements.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Project Team</h2>
+        <p>Civic Responsibility Project — Kadir Has University</p>
+    </div>
+
+    <div class="team">
+
+        <div class="member">
+            <div class="circle">F</div>
+            <h3>Fagan Mammadzada</h3>
+        </div>
+
+        <div class="member">
+            <div class="circle">A</div>
+            <h3>Adilson Daude Amade Nhantsave</h3>
+        </div>
+
+        <div class="member">
+            <div class="circle">T</div>
+            <h3>Tamerlan Rustamov</h3>
+        </div>
+
+        <div class="member">
+            <div class="circle">O</div>
+            <h3>Osman Nuriyev</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>
+        Earthquake Preparedness Website | Civic Responsibility Project <br>
+        Kadir Has University — 2026
+    </p>
+</footer>
+
+<script>
+
+const cards = document.querySelectorAll('.card, .member, .check-item');
+
+window.addEventListener('scroll', () => {
+
+    cards.forEach(card => {
+
+        const top = card.getBoundingClientRect().top;
+
+        if(top < window.innerHeight - 50){
+            card.style.opacity = 1;
+            card.style.transform = 'translateY(0)';
+        }
+
+    });
+
+});
+
+cards.forEach(card => {
+
+    card.style.opacity = 0;
+    card.style.transform = 'translateY(40px)';
+    card.style.transition = '0.6s';
+
+});
+
+</script>
+
+</body>
+</html>
